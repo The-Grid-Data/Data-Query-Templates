@@ -1,0 +1,23 @@
+query RootTree {
+  roots(where: {id: {_eq: "1"}}) {
+    id
+    urlMain
+    slug
+    profileInfos {
+      id
+      name
+    }
+    assets {
+      id
+      name
+    }
+    entities {
+      id
+      name
+    }
+    products {
+      id
+      name
+    }
+  }
+}
