@@ -1,0 +1,8 @@
+query MyQuery {
+  socials(where: {name: {_eq: "web3auth"}}) {
+    id
+    rootId
+    name
+    socialTypeId
+  }
+}
