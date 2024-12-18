@@ -1,0 +1,12 @@
+query FetchFullProductDataByName {
+  products(where: {id: {_eq: "Solana Mainnet"}}) {
+    id
+    rootId
+    name
+    description
+    launchDate
+    isMainProduct
+    productStatusId
+    productTypeId
+  }
+}

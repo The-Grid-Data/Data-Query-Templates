@@ -1,0 +1,12 @@
+query FetchFullProductDataById {
+  products(where: {id: {_eq: "22"}}) {
+    id
+    rootId
+    name
+    description
+    launchDate
+    isMainProduct
+    productStatusId
+    productTypeId
+  }
+}
