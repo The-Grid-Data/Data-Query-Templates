@@ -1,0 +1,7 @@
+query FecthFullRootDataById {
+  roots(where: {id: {_eq: "1"}}) {
+    id
+    slug
+    urlMain
+  }
+}
