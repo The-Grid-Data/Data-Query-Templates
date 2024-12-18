@@ -1,4 +1,4 @@
-query MyQuery {
+query AllUrlsByRootId {
   roots(where: {id: {_eq: "2"}}) {
     profileInfos {
       urls {
