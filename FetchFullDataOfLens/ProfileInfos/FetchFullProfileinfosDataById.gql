@@ -1,0 +1,15 @@
+query FetchFullProfileinfosDataById {
+  profileInfos(where: {id: {_eq: "65"}}) {
+    id
+    rootId
+    name
+    logo
+    descriptionShort
+    descriptionLong
+    tagLine
+    foundingDate
+    profileStatusId
+    profileSectorId
+    profileTypeId
+  }
+}

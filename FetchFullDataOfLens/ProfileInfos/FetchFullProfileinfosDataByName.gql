@@ -1,0 +1,15 @@
+query FetchFullProfileinfosDataByName {
+  profileInfos(where: {name: {_eq: "Bitcoin"}}) {
+    id
+    rootId
+    name
+    logo
+    descriptionShort
+    descriptionLong
+    tagLine
+    foundingDate
+    profileStatusId
+    profileSectorId
+    profileTypeId
+  }
+}
