@@ -1,0 +1,12 @@
+query FetchFullAssetDataByName {
+  assets(where: {name: {_eq: "Solana"}}) {
+    id
+    rootId
+    name
+    description
+    ticker
+    icon
+    assetTypeId
+    assetStatusId
+  }
+}
