@@ -1,0 +1,15 @@
+query MyQuery {
+  entities(where: {name: {_eq: "Block Raccoon S.A."}}) {
+    id
+    leiNumber
+    localRegistrationNumber
+    name
+    rootId
+    taxIdentificationNumber
+    tradeName
+    entityTypeId
+    dateOfIncorporation
+    countryId
+    address
+  }
+}

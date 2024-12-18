@@ -1,0 +1,15 @@
+query FetchFullEntityDataById {
+  entities(where: {id: {_eq: "11"}}) {
+    id
+    leiNumber
+    localRegistrationNumber
+    name
+    rootId
+    taxIdentificationNumber
+    tradeName
+    entityTypeId
+    dateOfIncorporation
+    countryId
+    address
+  }
+}
