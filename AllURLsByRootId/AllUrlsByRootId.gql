@@ -1,0 +1,29 @@
+query MyQuery {
+  roots(where: {id: {_eq: "2"}}) {
+    profileInfos {
+      urls {
+        url
+      }
+    }
+    products {
+      urls {
+        url
+      }
+    }
+    assets {
+      urls {
+        url
+      }
+    }
+    entities {
+      urls {
+        url
+      }
+    }
+    socials {
+      urls {
+        url
+      }
+    }
+  }
+}
