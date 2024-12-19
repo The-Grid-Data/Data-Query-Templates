@@ -1,5 +1,5 @@
-query FetchFullAssetDataById {
-  assets(where: {id: {_eq: "26"}}) {
+query FetchFullAssetDataById($id: Int2!) {
+  assets(where: {id: {_eq: $id}}) {
     id
     rootId
     name

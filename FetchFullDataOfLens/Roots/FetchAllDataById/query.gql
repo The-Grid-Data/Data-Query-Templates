@@ -1,5 +1,5 @@
-query FecthFullRootDataById {
-  roots(where: {id: {_eq: "1"}}) {
+query FecthFullRootDataById ($id: Int2!) {
+  roots(where: {id: {_eq: $id}}) {
     id
     slug
     urlMain

@@ -1,4 +1,4 @@
-query FetchFullProfileinfosDataById($id: String!) {
+query FetchFullProfileinfosDataById($id: Int2!) {
   profileInfos(where: {id: {_eq: $id}}) {
     id
     rootId

@@ -1,5 +1,5 @@
-query FetchFullEntityDataById {
-  entities(where: {id: {_eq: "11"}}) {
+query FetchFullEntityDataById($id: Int2!) {
+  entities(where: {id: {_eq: $id}}) {
     id
     leiNumber
     localRegistrationNumber

@@ -1,5 +1,5 @@
-query FetchFullSocialData {
-  socials(where: {id: {_eq: "22"}}) {
+query FetchFullSocialData ($id: Int2!) {
+  socials(where: {id: {_eq: $id}}) {
     id
     rootId
     name
