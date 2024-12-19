@@ -1,5 +1,5 @@
 Documentation:
-- Input: Entity name (integer type: String1)
+- Input: Entity name (string type: String1)
 - Output: Full data tree of the entity with the given name.
 
 Important:

@@ -1,5 +1,5 @@
 Documentation:
-- Input: Product name (integer type: String1)
+- Input: Product name (string type: String1)
 - Output: Full data tree of the product with the given name.
 
 Important:

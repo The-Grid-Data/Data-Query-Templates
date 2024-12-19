@@ -1,5 +1,5 @@
 Documentation:
-- Input: Asset name (integer type: String1)
+- Input: Asset name (string type: String1)
 - Output: Full data tree of the asset with the given name.
 
 Important:
