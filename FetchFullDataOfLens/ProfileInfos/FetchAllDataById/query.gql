@@ -1,5 +1,5 @@
 query FetchFullProfileinfosDataById {
-  profileInfos(where: {id: {_eq: "65"}}) {
+  profileInfos(where: {id: {_eq: "0"}}) {
     id
     rootId
     name
