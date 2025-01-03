@@ -1,4 +1,4 @@
-query FetchFullEntityDataById($id: Int2!) {
+query FetchFullEntityDataById($id: String2!) {
   entities(where: {id: {_eq: $id}}) {
     id
     leiNumber
