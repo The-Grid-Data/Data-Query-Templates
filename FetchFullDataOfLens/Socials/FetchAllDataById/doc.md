@@ -1,5 +1,5 @@
 Documentation:
-- Input: Social ID (integer type: String2)
+- Input: Social ID (string type: String2)
 - Output: Full data tree of the social with the given ID.
 
 Important:

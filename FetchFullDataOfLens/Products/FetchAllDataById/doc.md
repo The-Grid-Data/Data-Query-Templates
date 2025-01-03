@@ -1,5 +1,5 @@
 Documentation:
-- Input: Product ID (integer type: String2)
+- Input: Product ID (string type: String2)
 - Output: Full data tree of the product with the given ID.
 
 Important:

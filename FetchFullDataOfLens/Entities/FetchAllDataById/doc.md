@@ -1,5 +1,5 @@
 Documentation:
-- Input: Entity ID (integer type: String2)
+- Input: Entity ID (string type: String2)
 - Output: Full data tree of the entity with the given ID.
 
 Important:

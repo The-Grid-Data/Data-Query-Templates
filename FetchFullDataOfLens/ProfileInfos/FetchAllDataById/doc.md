@@ -1,5 +1,5 @@
 Documentation:
-- Input: Profile ID (integer type: String2)
+- Input: Profile ID (string type: String2)
 - Output: Full data tree of the profile with the given ID.
 
 Important:
