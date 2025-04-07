@@ -1,0 +1,10 @@
+query FetchProfileInternalTags($row_id: String3) {
+  internalTagsRecords(
+    where: {rowId: {_eq: $row_id}, tableName: {_eq: "profileInfos"}}
+  ) {
+    id
+    internalTag {
+      tag
+    }
+  }
+}

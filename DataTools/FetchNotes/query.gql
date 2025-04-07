@@ -1,0 +1,7 @@
+query FetchRootNotes($root_id: String3) {
+  roots(where: {notes: {rootId: {_eq: $root_id}}}) {
+    notes {
+      note
+    }
+  }
+}

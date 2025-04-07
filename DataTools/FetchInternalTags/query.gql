@@ -1,0 +1,10 @@
+query FetchInternalTags {
+  internalTags {
+    color
+    description
+    id
+    internalTagTypeId
+    priorityId
+    tag
+  }
+}
