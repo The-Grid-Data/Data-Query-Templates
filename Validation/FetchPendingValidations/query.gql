@@ -1,0 +1,24 @@
+query FetchPendingValidations {
+  validation(where: {isPending: {_eq: "1"}}) {
+    id
+    comment
+    committedAt
+    createdAt
+    destinationValue
+    field
+    isPending
+    referencedField
+    referencedTable
+    resolution
+    resolvedAt
+    resolvedBy
+    rootId
+    rowId
+    sourceValue
+    tableName
+    updatedAt
+    updatedBy
+    updatedFrom
+  }
+}
+

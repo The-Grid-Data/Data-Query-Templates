@@ -1,0 +1,28 @@
+query FetchProfilePendingValidations($root_id: String2) {
+  validation(
+    where: {
+      isPending: {_eq: "1"}, 
+      rootId: {_eq: $root_id}
+    }
+  ) {
+    id
+    comment
+    committedAt
+    createdAt
+    destinationValue
+    field
+    isPending
+    referencedField
+    referencedTable
+    resolution
+    resolvedAt
+    resolvedBy
+    rootId
+    rowId
+    sourceValue
+    tableName
+    updatedAt
+    updatedBy
+    updatedFrom
+  }
+}
