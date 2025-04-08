@@ -1,4 +1,4 @@
-query FetchFullAssetDataById($id: String2!) {
+query FetchFullAssetDataById($id: String1) {
   assets(where: {id: {_eq: $id}}) {
     id
     rootId

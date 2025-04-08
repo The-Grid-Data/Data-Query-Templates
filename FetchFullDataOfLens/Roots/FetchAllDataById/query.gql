@@ -1,4 +1,4 @@
-query FecthFullRootDataById ($id: String2!) {
+query FecthFullRootDataById ($id: String1) {
   roots(where: {id: {_eq: $id}}) {
     id
     slug
