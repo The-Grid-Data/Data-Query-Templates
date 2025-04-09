@@ -1,13 +1,11 @@
-#!/usr/bin/env python3
 import os
 import re
 import json
 import requests
 from pathlib import Path
 
-# Configuration - modify these values
-ENDPOINT = 'https://thegriddev.node.thegrid.id/graphql'  # Your GraphQL endpoint
-ROOT_DIR = os.getcwd()  # Directory containing your queries
+ENDPOINT = 'https://thegriddev.node.thegrid.id/graphql' 
+ROOT_DIR = os.getcwd() 
 
 def find_query_files(directory):
     """Find all query.gql files in the directory and subdirectories."""
@@ -25,7 +23,7 @@ def extract_variables(query_content):
     
     for match in re.finditer(variable_regex, query_content):
         var_name = match.group(1)
-        variables[var_name] = "test-value"  # Simple string for all variables
+        variables[var_name] = "test-value" 
     
     return variables
 
@@ -87,7 +85,6 @@ def main():
         result = execute_query(query_file, mock_variables)
         results.append(result)
     
-    # Simple summary
     successful = sum(1 for r in results if r['success'])
     print(f"\nResults: {successful}/{len(results)} queries successful")
 
