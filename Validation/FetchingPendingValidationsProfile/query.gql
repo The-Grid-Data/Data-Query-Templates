@@ -16,13 +16,11 @@ query FetchProfilePendingValidations($root_id: String2) {
     referencedTable
     resolution
     resolvedAt
-    resolvedBy
     rootId
     rowId
     sourceValue
     tableName
     updatedAt
-    updatedBy
     updatedFrom
   }
 }

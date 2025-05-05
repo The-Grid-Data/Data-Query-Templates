@@ -11,13 +11,11 @@ query FetchPendingValidations {
     referencedTable
     resolution
     resolvedAt
-    resolvedBy
     rootId
     rowId
     sourceValue
     tableName
     updatedAt
-    updatedBy
     updatedFrom
   }
 }
